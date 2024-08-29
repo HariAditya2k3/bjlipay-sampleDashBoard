@@ -1,0 +1,86 @@
+.downcontainer{
+    position: relative; /* Set relative positioning */
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-color: rgba(149, 143, 143, 0.414);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #5e0183;
+    transition: all 0.3s ease-in-out !important;
+  }
+
+  .downcontainer:hover {
+    transform: scale(1.02); 
+  }
+  
+  .no-download-request {
+    display: flex;
+    padding-top: 8%;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure the container fills the height of its parent */
+  }
+  
+
+  .th:hover,
+  td:hover {
+    transform: scale(1.02); 
+  }
+
+
+  .download-buttons {
+    background-color: #5e0183; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .download-buttons:hover {
+    transform: scale(1.02);
+    background-color: #470063; /* Darker Green */
+  }
+  
+  
+  
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  /* Calendar Container */
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Calendar Header */
+  .calendar-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Date Input */
+  .date-input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Selected Date Text */
+  .selected-date {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .download{
+    padding:30px,20px;
+    
+  }

@@ -1,0 +1,212 @@
+.transcontainer {
+  position: relative; /* Set relative positioning */
+  display: flex;
+  flex-direction: column;
+  width:auto;
+  height: 90vh;
+  background-color: rgba(149, 143, 143, 0.414);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #5e0183;
+  transition: all 0.3s ease-in-out;
+  overflow: scroll;
+  
+}
+.transcontainer::-webkit-scrollbar {
+  width: 5px; /* Adjust the width of the scrollbar */
+}
+
+.transcontainer::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 4px;
+}
+
+.transcontainer::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 13%;
+}
+
+
+.transcontainer::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+  border-radius: 13%;
+}
+.transcontainer:hover {
+  transform: scale(1.02); 
+}
+
+.transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3%;
+    overflow: auto;
+  }
+  
+  th, td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #ffffff65;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f28a;
+  }
+  
+  /* Calendar Container */
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Calendar Header */
+  .calendar-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Date Input */
+  .date-input {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Selected Date Text */
+  .selected-date {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .button-container {
+    position: relative;
+    margin-top: 20px; /* Adjust as needed */
+    text-align: right;
+  }
+  
+  .download-button {
+    background-color: #6006a0; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -100px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  
+  
+  .download-button:hover {
+    transform: scale(1.02);
+  }
+  
+.fb{
+  padding-left: 25%;
+  padding-top:0%;
+}
+.fb button{
+
+  background-color: #6006a0; 
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin: -10px 50px;
+
+  }
+
+  .fb button:hover {
+    transform: scale(1.02); 
+  }
+  /* CSS */
+.Dateinput {
+  display: flex;
+  flex-direction: row;
+  padding: auto;
+}
+
+.date-input-start,
+.date-input-end {
+  display: flex;
+  flex-direction: row;
+  padding-right: 30px;
+  padding-left:30px;
+}
+
+.date-input-start label,
+.date-input-end label {
+  margin-bottom: 5px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+.date-input-start input,
+.date-input-end input {
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+  border: 1px solid #8105a7;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.date-input-start input:focus,
+.date-input-end input:focus {
+  border-color: #58028a; /* Change color on focus */
+}
+
+.error-message{
+  align-items: center;
+  margin-left: 10%;
+}
+
+.no-data-message {
+  display: flex;
+  padding-top: 8%;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Ensure the container fills the height of its parent */
+}
+
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #6006a0;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.page-button:hover {
+  transform: scale(1.02); 
+}
+
+
+.page-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
